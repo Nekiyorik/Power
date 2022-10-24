@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<!-- Подключаем jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Подключаем слайдер Slick -->
+	<script src="js/slick.min.js"></script>
+	<!-- Подключаем файл скриптов -->
+	<script src="js/js.js"></script>
+</head>
+
+<body>
+	
+	<header>
+		<div class="logo-box">
+			<img src="./img/чяс.jpg" alt="logotip" class="logo">
+		</div>
+		<div class="container header__container">
+			<div class="menu-burger__header">
+				<span></span>
+			</div>
+	
+			<nav class="header__nav">
+				<ul class="menu header__menu">
+					<li><a href="#titul" class="menu__item">Главная</a></li>
+					<li><a href="#contact" class="menu__item">Контакты</a></li>
+					<li><a href="tel:+78005553535" class="menu__item">8 (800) 555-35-35</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="hero" id="titul">
+		<div class="wrapper">
+			<div class="titul-left">
+				<h1>Если хочешь по жизни блистать, не забывай ты спортзал посещать</h1>
+				<a href="#" class="btn">Записаться на пробное занятие</a>
+			</div>
+			<div class="titul-right">
+				<img class="titul-img" src="img/titul-img.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="our-work">
+		<div class="wrapper">
+			<div class="slider">
+				<div class="slider__item filter">
+					<div class="slider-text">
+						<p>Сауна для восстановления сил </p>
+					</div>
+					<img src="img/about-1-grad.png" alt="">
+				</div>
+				<div class="slider__item">
+					<div class="slider-text">
+						<p>Йога, аэробика</p>
+					</div>
+					<img src="img/about-2-grad.png" alt="">
+				</div>
+				<div class="slider__item filter">
+					<div class="slider-text">
+						<p>Зал оснащен 60 тренажерами</p>
+					</div>
+					<img src="img/about-3-grad.png" alt="">
+				</div>
+		</div>
+	</section>
+
+	<section class="treners">
+		<h2>Специалисты помогут вам добиться желаемого результата</h2>
+		<div class="wrapper">
+			<div class="coach-card">
+				<div class="coach-top">
+					<img class="coach-img" src="./img/11.png" alt="1">
+				</div>
+				<div class="coach-bot">
+					<h3 class="coach-name">Романов Давид</h3>
+					<p class="coach-description">Победы не делают тебя сильнее. Сила формируется в борьбе. Когда, преодолевая трудности, ты решаешь не сдаваться – тогда ты проявляешь силу. А. Шварценеггер</p>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="coach-card">
+				<div class="coach-top">
+					<img class="coach-img" src="./img/13.png" alt="1">
+				</div>
+				<div class="coach-bot">
+					<h3 class="coach-name">Фомин Роман</h3>
+					<p class="coach-description">Наш мозг может все. Абсолютно все. Главное, убедить себя в этом. Руки не знают, что они не умеют отжиматься, ноги не знают, что они слабые. Это знает ваш мозг. Убедив себя в том, что вы можете все, вы сможете действительно все. Роберт Кийосаки</p>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+			<div class="coach-card">
+				<div class="coach-top">
+					<img class="coach-img" src="./img/12.png" alt="1">
+				</div>
+				<div class="coach-bot">
+					<h3 class="coach-name">Горелова Ангелина</h3>
+					<p class="coach-description">Физические упражнения могут заменить множество лекарств, но ни одно лекарство в мире не может заменить физические упражнения. Анджело Моссо</p>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<div class="wrapper">
+			<h2>Что Говорят Другие:</h2>
+
+			<p class="quote">Какой-то восхитительный комментарий от пользователя.</p>
+			<p class="author">— Иванов Ивано</p>
+
+			<p class="quote">Какой-то восхитительный комментарий от пользователя.</p>
+			<p class="author">— Иванов Ивано</p>
+
+			<p class="quote">Какой-то восхитительный комментарий от пользователя.</p>
+			<p class="author">— Иванов Ивано</p>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="wrapper">
+			<div class="map">
+				<img src="./img/map.png" alt="map">
+			</div>
+			<div class="contacts">
+				<div class="contacts-box">
+					<h2>Наши контакты (Напиши нам!)</h2>
+					<div class="phone contacts-info">
+						<img class="label" src="./img/phone.svg" alt="telephone">
+						<a href=”tel:+79998887766”>+7 (999) 888-77-66</a>
+					</div>
+					<div class="adres contacts-info">
+						<img class="label" src="./img/point.svg" alt="telephone">
+						<p>Ул. Генерала Маршала Б15</p>
+					</div>
+					<div class="mail contacts-info">
+						<img class="label" src="./img/mail.svg" alt="telephone">
+						<a href="kakoy-to.mail@mail.ru">kakoy-to.mail@mail.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<ul>
+			<li>
+				<a href="#">
+					<img src="./img/inst.svg" alt="insta">
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<img src="./img/VK.svg" alt="vk">
+				</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-pinterest-square"></i></a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-github-square"></i></a>
+			</li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>
